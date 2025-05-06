@@ -1,16 +1,16 @@
-#Documentación de Requerimientos - Sistema contable
+# Documentación de Requerimientos - Sistema contable
 
-##1.Introducción
+## 1.Introducción
 
-###1.1 Propósito del Documento
+### 1.1 Propósito del Documento
 
 Definir los requerimientos funcionales y no funcionales del sistema contable para la gestión de ventas, servicios, clientes y empleados de Avelinas Centro Integral de Belleza.
 
-###1.2 Alcance del Sistema
+### 1.2 Alcance del Sistema
 
 El sistema proporcionará una plataforma para administrar operaciones contables básicas, gestionar clientes, empleados, ventas de servicios y productos, con capacidad de expansión para reportes financieros y funcionalidades avanzadas.
 
-###1.3 Contexto del Negocio
+### 1.3 Contexto del Negocio
 
 Avelinas es un negocio local dedicado a ofrecer una amplia variedad de servicios de belleza, como manicura, pedicura, depilación, entre otros. Cuenta con un equipo de profesionales que trabajan bajo un modelo de ingresos por comisión: cada empleado recibe un porcentaje del valor de los servicios que realiza, con pagos quincenales o mensuales según corresponda.
 
@@ -18,14 +18,14 @@ Además de los servicios, el local comercializa productos relacionados con el cu
 
 Esta situación limita la visibilidad financiera del negocio, dificulta la toma de decisiones informadas y representa un desafío creciente a medida que el volumen de operaciones crece.
 
-##2.Descripción General
+## 2.Descripción General
 
-###2.1 Perfil de Usuarios
+### 2.1 Perfil de Usuarios
 
 - Administrador: acceso total al sistema.
 - Contador: acceso a reportes financieros e información contable.
 
-###2.2 Ambiente Operativo
+### 2.2 Ambiente Operativo
 
 El sistema contable será una aplicación de escritorio para Sistemas Operativos Windows, instalada en los dispositivos autorizados. Su diseño contempla dos modalidades de acceso:
 
@@ -34,9 +34,9 @@ El sistema contable será una aplicación de escritorio para Sistemas Operativos
 
 La información se almacenará centralizadamente en una base de datos en la nube, lo que garantiza integridad, disponibilidad y respaldo de los datos en tiempo real. El sistema contará con mecanismos de autenticación y control de acceso según el perfil del usuario.
 
-##3. Requerimientos Funcionales
+## 3. Requerimientos Funcionales
 
-###3.1 Gestión de Clientes
+### 3.1 Gestión de Clientes
 
 - **RF-1.1:** El sistema permitirá registrar nuevos clientes con la siguiente información: nombre completo, correo, fecha de cumpleaños, teléfono.
 - **RF-1.2:** El sistema permitirá consultar la información de los clientes.
