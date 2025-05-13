@@ -79,6 +79,7 @@ La información se almacenará centralizadamente en una base de datos en la nube
 - **RF-5.5:** El sistema permitirá registrar ventas con pago pendiente.
 - **RF-5.6:** El sistema modificará de forma automática el stock del o de los productos.
 - **RF-5.7:** El sistema permitirá registrar una venta de producto asociada a un empleado.
+- **RF'5.8:** El sistema permitirá registrar la devolución de un producto.
 
 ### 3.6 Registro Financiero
 
@@ -87,7 +88,7 @@ La información se almacenará centralizadamente en una base de datos en la nube
 - **RF-6.3:** El sistema permitirá generar un cierre de caja diario.
 - **RF-6.4:** El sistema permitirá crear informes(comisiones ganadas de empleados, ganancias, etc.).
 - **RF-6.5:** El sistema permitirá administrar cuentas contables.
-- **RF-6.6:** El sistema permitirá crear Liquidación de Comisiones. (Teniendo en cuenta servicios dados, productos/servicios retirados, adelantos de sueldo).
+- **RF-6.6:** El sistema permitirá crear Liquidación de Comisiones mensuales. (Teniendo en cuenta servicios dados, productos/servicios retirados, adelantos de sueldo).
 
 ### 3.7 Gestión de Insumos
 
@@ -97,6 +98,8 @@ La información se almacenará centralizadamente en una base de datos en la nube
 
 ### 3.8 Gestión de Vauchers
 
-
+- **RF-8.1:** El sistema permitirá la creación de vauchers con la siguiente información: nombre cliente, nombre destinatario, monto, fecha de vencimiento.
+- **RF-8.2:** El sistema permitirá registrar el uso de un vaucher, actualizando el monto restante (Se puede utilizar en más de un servicio).
+- **RF-8.3:** El sistema dará de baja automáticamente vauchers vencidos. 
 
 ## 4. Requerimientos no Funcionales
