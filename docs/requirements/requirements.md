@@ -103,3 +103,30 @@ La información se almacenará centralizadamente en una base de datos en la nube
 - **RF-8.3:** El sistema dará de baja automáticamente vauchers vencidos. 
 
 ## 4. Requerimientos no Funcionales
+
+### 4.1 Seguridad
+
+- **RNF-1.1:** El acceso al sistema requerira autenticación mediante usuario y contraseña.
+- **RNF-1.2:** Las contraseñas se almacenarán encriptadas en la base de datos.
+- **RNF-1.3:** El sistema implementará control de acceso basado en roles (RBAC).
+- **RNF-1.4:** El sistema registrará un log de actividades críticas para auditoría.
+
+### 4.2 Rendimiento
+
+- **RNF-2.1:** El tiempo de respuesta para operaciones estandar no deberá superar los 2 segundos.
+- **RNF-2.2:** La base de datos deberá optimizarse para consultas rápidas sobre datos frecuentes.
+
+### 4.3 Disponibilidad
+
+- **RNF-3.1:** El sistema deberá estar disponible durante las horas de operacion de la tienda y horas extras de trabajo.
+- **RNF-3.2:** Se realizarán copias diarias de la información en horarios diurnos. 
+- **RNF-3.3:** El sistema debe estar disponible para acceso remoto.
+
+### 4.4 Usabilidad
+
+- **RNF-4.1:** La interfaz debe ser intuitiva y requerir mínima capacitación.
+- **RNF-4.2:** El flujo de venta debe completarse en menos de 5 pasos.
+
+## 5. Reestricciones y Limitaciones
+
+- El sistema debe operar sobre el Sistema Operativo Windows.
