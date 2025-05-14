@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 5.3//EN"
+        "https://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+
+        <!-- Configuración de la base de datos -->
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/avelinas</property>
+        <property name="hibernate.connection.username">usuario</property>
+        <property name="hibernate.connection.password">contraseña</property>
+
+        <!-- Dialecto (según el motor de base de datos) -->
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+
+        <!-- Mostrar y formatear SQL en consola -->
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+
+        <!-- Estrategia de actualización del schema -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <!-- Declarar entidades -->
+        <mapping class="com.avelinas.core.model.Cliente"/>
+        <mapping class="com.avelinas.core.model.Empleado"/>
+        <mapping class="com.avelinas.core.model.Servicio"/>
+        <mapping class="com.avelinas.core.model.Producto"/>
+
+    </session-factory>
+</hibernate-configuration>
